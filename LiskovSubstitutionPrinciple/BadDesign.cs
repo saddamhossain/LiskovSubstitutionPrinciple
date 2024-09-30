@@ -30,8 +30,10 @@ public class Duck : IBird
     }
 }
 
+
 // This breaks the Liskov substitution principle because if we follow polymorphism and call the Run() method from IBird reference variable
 // then it will throw NotImplementedException.
+
 
 public class Ostrich : IBird
 {
